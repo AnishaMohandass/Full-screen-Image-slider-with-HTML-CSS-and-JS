@@ -44,7 +44,7 @@ body, #slider, .wrap, .slide-content
 
 .slide-content span{
     font-size: 120px;
-    color: floralwhite;
+    color: rgb(237, 241, 178);
 }
 
 .arrow
@@ -71,4 +71,24 @@ body, #slider, .wrap, .slide-content
     border-color: transparent transparent transparent white;
     right: 0;
     margin-right: 30px;
+}
+
+@media(max-width: 515px)
+{
+    .slide-content span
+    {
+        font-size: 30px;
+    }  
+    
+    #arrow-left 
+    {
+        border-width: 10px 20px 10px 0px;
+        margin-left: 15px;
+    }
+
+    #arrow-right
+    {
+        border-width: 10px 0px 10px 20px;
+        margin-right: 15px;
+    }
 }
